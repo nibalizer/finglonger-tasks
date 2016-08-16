@@ -1,0 +1,4 @@
+---
+task:
+  name: job
+  shell: /bin/bash echo test
