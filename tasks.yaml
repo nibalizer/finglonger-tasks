@@ -32,3 +32,6 @@ task:
 task:
   name: job
   shell: /bin/bash echo test
+task:
+  name: job
+  shell: /bin/bash echo test
