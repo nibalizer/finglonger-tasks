@@ -134,3 +134,10 @@ task:
 task:
   name: job
   shell: echo test +
+task:
+  name: job
+  shell: |
+    echo test +
+    echo another line
+    echo whatttt
+
