@@ -140,4 +140,8 @@ task:
     echo test +
     echo another line
     echo whatttt
+task:
+  name: Remove old log from server1
+  shell: |
+    ssh root@server1 rm /var/log/badlog
 
