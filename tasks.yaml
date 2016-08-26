@@ -140,4 +140,7 @@ task:
     echo test +
     echo another line
     echo whatttt
-
+task:
+  name: Say Hello to DevOpsDays Boston
+  shell: |
+    echo HELLO DoD Boston!
