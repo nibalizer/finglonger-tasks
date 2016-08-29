@@ -148,3 +148,7 @@ task:
   name: Run script
   shell: |
     ./script.sh
+task:
+  name: Run script
+  shell: |
+    ./script.sh
