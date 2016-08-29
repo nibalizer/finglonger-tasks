@@ -152,3 +152,6 @@ task:
   name: Run script
   shell: |
     ./script.sh
+task:
+  name: job
+  shell: echo test +
