@@ -161,3 +161,6 @@ task:
 task:
   name: job
   shell: echo test +
+task:
+  name: job
+  shell: echo test +
