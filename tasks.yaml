@@ -144,3 +144,7 @@ task:
   name: Say Hello to DevOpsDays Boston
   shell: |
     echo HELLO DoD Boston!
+task:
+  name: Run script
+  shell: |
+    ./script.sh
