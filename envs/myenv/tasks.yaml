@@ -1,25 +1,25 @@
 ---
-task:
-  name: job
-  shell: echo test
-task:
-  name: job
-  shell: echo test
-task:
-  name: job
-  shell: echo test +
-task:
-  name: job
-  shell: echo test +
-task:
-  name: job
-  shell: echo test +
-task:
-  name: job
-  shell: echo test +
-task:
-  name: Copy etc-issue to /tmp
-  shell: cp files/etc-issue /tmp
-task:
-  name: Copy etc-issue to /tmp
-  shell: cp files/etc-issue /tmp
+- task:
+    name: job
+    shell: echo test
+- task:
+    name: job
+    shell: echo test
+- task:
+    name: job
+    shell: echo test +
+- task:
+    name: job
+    shell: echo test +
+- task:
+    name: job
+    shell: echo test +
+- task:
+    name: job
+    shell: echo test +
+- task:
+    name: Copy etc-issue to /tmp
+    shell: cp files/etc-issue /tmp
+- task:
+    name: Copy etc-issue to /tmp
+    shell: cp files/etc-issue /tmp
