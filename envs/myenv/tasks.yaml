@@ -18,6 +18,9 @@
     name: job
     shell: echo test +
 - task:
+    name: job
+    shell: echo test + mytest
+- task:
     name: Copy etc-issue to /tmp
     shell: cp files/etc-issue /tmp
 - task:
